@@ -10,7 +10,7 @@
 namespace RegistroSugerencia.Consulta {
     
     
-    public partial class Consulta1 {
+    public partial class Consultas {
         
         /// <summary>
         /// FiltroDropDownList control.
