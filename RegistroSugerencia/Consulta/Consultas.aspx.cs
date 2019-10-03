@@ -30,8 +30,7 @@ namespace RegistroSugerencia.Consulta
 
         protected void buscarLinkButton_Click(object sender, EventArgs e)
         {
-          //  object Ututils = Utils;
-            int SugerenciaId = ToInt(CriterioTextBox.Text);
+            int Id = Utils.ToInt(CriterioTextBox.Text);
             int index = ToInt(FiltroDropDownList.SelectedIndex);
             DateTime desde = Utils.ToDateTime(DesdeTextBox.Text);
             DateTime hasta = Utils.ToDateTime(HastaTextBox.Text);

@@ -21,7 +21,7 @@
                     <asp:TextBox ID="CriterioTextBox" AutoCompleteType="Disabled" class="form-control input-group" runat="server"></asp:TextBox>
                 </div>
                 <div class="col-lg-1 p-0">
-                    <asp:LinkButton ID="buscarLinkButton" CssClass="btn btn-dark mt-4" runat="server">
+                    <asp:LinkButton ID="buscarLinkButton" CssClass="btn btn-dark mt-4" runat="server" OnClick="buscarLinkButton_Click">
                 <span class="fas fa-search"></span>
                  Buscar
                     </asp:LinkButton>
