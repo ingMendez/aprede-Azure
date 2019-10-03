@@ -1,6 +1,9 @@
-﻿using System;
+﻿using BLL;
+using Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Web;
 using System.Web.UI;
 
@@ -76,17 +79,31 @@ namespace RegistroSugerencia.Utilitarios
                  String.Format("toastr.{0}('{1}', '{2}');", type.ToLower(), message, title), addScriptTags: true);
         }
 
-       /* public static List<EvaluacionDetalle> ListaDetalle(int IdLista)
+
+        public static List<Sugerencia> FiltrarSugerencia(int index, string criterio, DateTime desde, DateTime hasta)
         {
-            Repositorio<EvaluacionDetalle> repositorio = new Repositorio<EvaluacionDetalle>();
-            List<EvaluacionDetalle> list = new List<EvaluacionDetalle>();
-            int id = IdLista;
-            list = repositorio.GetList(c => c.EvaluacionId == id);
+            Expression<Func<Sugerencia, bool>> filtro = p => true;
+            Repositorio<Sugerencia> repositorio = new Repositorio<Sugerencia>();
+            List<Sugerencia> list = new List<Sugerencia>();
+
+            int id = ToInt(criterio);
+            switch (index)
+            {
+                case 0://Todo
+                    break;
+
+                case 1://Todo por fecha
+                    filtro = p => p.Fecha >= desde && p.Fecha <= hasta;
+                    break;
+
+                case 2://FacturaId
+                    filtro = p => p.SugerenciaId == id && p.Fecha >= desde && p.Fecha <= hasta;
+                    break;
+            }
+
+            list = repositorio.GetList(filtro);
 
             return list;
-        }*/
-
-
-
+        }
     }
 }

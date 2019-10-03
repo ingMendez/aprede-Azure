@@ -44,7 +44,7 @@
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Consultas
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="/Consultas/cEvaluacion.aspx">Evaluacion</a>
+                                <a class="dropdown-item"href="Consulta/Consultas.aspx">Consulta</a>
                             </div>
                         </li>
                         <li class="nav-item active">

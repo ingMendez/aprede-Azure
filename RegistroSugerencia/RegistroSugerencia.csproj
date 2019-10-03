@@ -76,7 +76,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Consulta\Consulta.aspx" />
+    <Content Include="Consulta\Consultas.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-reboot.css" />
@@ -135,12 +135,12 @@
     <Content Include="Scripts\popper-utils.js.map" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Consulta\Consulta.aspx.cs">
-      <DependentUpon>Consulta.aspx</DependentUpon>
+    <Compile Include="Consulta\Consultas.aspx.cs">
+      <DependentUpon>Consultas.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Consulta\Consulta.aspx.designer.cs">
-      <DependentUpon>Consulta.aspx</DependentUpon>
+    <Compile Include="Consulta\Consultas.aspx.designer.cs">
+      <DependentUpon>Consultas.aspx</DependentUpon>
     </Compile>
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>

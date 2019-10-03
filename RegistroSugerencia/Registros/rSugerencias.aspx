@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <br>
     <div class="form-row justify-content-center">
-        <aside class="col-sm-4">
+        <aside class="col-sm-6">
             <div class="card text-white bg-dark mb-3">
                 <div class="card-header text-uppercase text-center">Sugerencias</div>
                 <article class="card-body">
