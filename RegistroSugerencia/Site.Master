@@ -36,15 +36,14 @@
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Registros
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href ="Registros/rSugerencias.aspx">Registro Sugerencias</a>
+                                <a class="dropdown-item" href ="/Registros/rSugerencias.aspx">Registro Sugerencias</a>
                             </div>
                         </li>
-
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Consultas
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item"href="Consulta/Consultas.aspx">Consulta</a>
+                                <a class="dropdown-item"href="/Consulta/Consultas.aspx">Consulta</a>
                             </div>
                         </li>
                         <li class="nav-item active">
