@@ -86,6 +86,7 @@
     <Content Include="default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Registros\rSugerencias.aspx" />
+    <Content Include="Registros\Usuarios.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -159,6 +160,13 @@
     </Compile>
     <Compile Include="Registros\rSugerencias.aspx.designer.cs">
       <DependentUpon>rSugerencias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registros\Usuarios.aspx.cs">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registros\Usuarios.aspx.designer.cs">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
